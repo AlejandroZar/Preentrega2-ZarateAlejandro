@@ -1,0 +1,42 @@
+/*  */
+
+.altura-a-b{
+    padding: 100px 0;
+}
+
+.logotipo{
+    width: 150px;
+    padding: 10px;
+}
+.banner-video{
+    background-image: url("../images/home/video-bg.jpg");
+    padding: 200px 0;
+    position: relative;
+    text-align: center;
+}
+
+.banner-video .play{
+    width: 80px;
+    height: 80px;
+    position: relative;
+}
+
+/* Quienes Somos */
+
+.cabecera-somos{
+    padding: 150px 0 100px 0;
+    background-image: url("../images/somos/slider-interior.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+
+.cabecera-somos h1, .cabecera-somos h2{
+    color: #000;
+}
+
+
+footer{
+    background-color: #ffffff;
+    padding: 100px 0;
+    text-align: center;
+}

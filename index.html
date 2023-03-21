@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sitio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img class="logotipo" src="./images/home/Logotipo.png" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./somos.html">Quienes somos</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Servicios
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="./web.html">Web</a></li>
+                <li><a class="dropdown-item" href="#">Software</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Soporte</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contacto.html">Contacto</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Servicio de..." aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Buscar</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Slider -->
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./images/home/slider01.jpg" class="d-block w-100" alt="Slider 01" height="820px">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Desarrollo Web</h5>
+            <p>Diseñanos y Lanzamos tu sitio a tu medida</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./images/home/slider02.jpg" class="d-block w-100" alt="Slider 02" height="820px">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Zona Gaming</h5>
+            <p>Experimenta un nuevo nivel de jugabilidad</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./images/home/slider03.jpg" class="d-block w-100" alt="Slider 03" height="820px">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Diseño de Marca</h5>
+            <p>Maquetamos el diseño y marca con estilo único</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div><br>
+
+    <main>
+      <!-- Banner -->
+      <section class="altura-a-b">
+        <div class="container">
+          <div class="row">
+
+            <div class="col-6 col-sm-4 text-center">
+              <img class="img-fluid w-100" src="images/home/banners/banner1.jpg" alt="Banner 01" width="370" height="248">
+              <h5>Gestión del Proyecto</h5>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam explicabo, perspiciatis qui pariatur labore ducimus nostrum hic voluptates cum repellendus?</p>
+            </div>
+            <div class="col-6 col-sm-4 text-center">
+              <img class="img-fluid w-100" src="images/home/banners/banner2.jpg" alt="Banner 01" width="370" height="248">
+              <h5>Maquetación</h5>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam explicabo, perspiciatis qui pariatur labore ducimus nostrum hic voluptates cum repellendus?</p>
+            </div>
+            <div class="col-6 col-sm-4 text-center">
+              <img class="img-fluid w-100" src="images/home/banners/banner3.jpg" alt="Banner 01" width="370" height="248">
+              <h5>Entrega Personalizada</h5>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam explicabo, perspiciatis qui pariatur labore ducimus nostrum hic voluptates cum repellendus?</p>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <section class="banner-video">
+        <a href="#">
+          <img class="play" src="images/svg/play-button.svg" alt="Play">
+        </a>
+      </section><br>
+
+      <section class="altura-a-b">
+        <div class="container">
+          <div class="row">
+
+            <div class="col-6 col-sm-3">
+              <img class="img-fluid shadow p-3" src="./images/pantallas/pantalla_1.jpg" alt="Pantalla 01">
+            </div>
+            <div class="col-6 col-sm-3">
+              <img class="img-fluid shadow p-3" src="./images/pantallas/pantalla_2.jpg" alt="Pantalla 02">
+            </div>
+            <div class="col-6 col-sm-3">
+              <img class="img-fluid shadow p-3" src="./images/pantallas/pantalla_3.jpg" alt="Pantalla 03">
+            </div>
+            <div class="col-6 col-sm-3">
+              <img class="img-fluid shadow p-3" src="./images/pantallas/pantalla_4.jpg" alt="Pantalla 04">
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- App -->
+      <section class="altura-a-b">
+        <div class="container">
+          <div class="row">
+
+            <div class="col-12 col-sm-6">
+              <img class="img-fluid" src="images/home/app-mockup-2.png" alt="Pantalla">
+            </div>
+            <div class="col-12 col-sm-6">
+              <h2>MyCoding</h2><br>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti porro repellendus ullam, aut quis quam nostrum, tenetur accusamus quibusdam pariatur totam iure? Distinctio sint sed laboriosam similique at omnis corrupti delectus, quod nam iure excepturi repudiandae adipisci beatae corporis! Tempora velit molestiae atque placeat magnam iure vel ipsam labore cupiditate, optio possimus ducimus, earum laboriosam dolorem minus quaerat tenetur, animi nulla natus. Facere, id aliquid voluptates temporibus minima ea modi aliquam necessitatibus nesciunt praesentium magni debitis error obcaecati aut dignissimos.</p><br>
+
+              <div class="row">
+                <div class="col-12 col-sm-6">
+                  <img class="img-fluid" src="images/home/android.png" alt="">
+                </div><br>
+                <div class="col-12 col-sm-6">
+                  <img class="img-fluid" src="images/home/apple.png" alt="">
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <footer>
+      <img width="250px" src="images/home/Logotipo.png" alt="Logotipo"><br><br>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam nostrum adipisci neque ab repudiandae unde fugiat magnam porro optio minus, minima, est autem odio laudantium.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>
